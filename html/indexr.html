@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styler.css">
+</head>
+
+<body>
+    <div id="0">
+        ._<br>|<span>..</span>|<br> |_|
+        <br>
+    </div>
+    <div id="1">
+        |<br> | <br>
+    </div>
+    <div id="2">
+        _ <br> _| <br> |_ <br>
+    </div>
+    <div id="3">
+        _<br> _|
+        <br> _|
+        <br><br>
+    </div>
+    <div id="4">
+        |_|<br>
+        <span>...</span>|
+    </div>
+    <div id="5">
+        ._<br>|_
+        <br>._|
+        <br>
+    </div>
+    <div id="6">
+        _<br> |_
+        <br> |_|
+        <br>
+    </div>
+    <div id="7">
+        _<br>
+        <span>...</span>|<br>
+        <span>...</span>|<br>
+    </div>
+    <div id="8">
+        ._<br> |_|
+        <br> |_|
+        <br>
+    </div>
+    <div id="9">
+        ._<br> |_|
+        <br> ._|
+        <br>
+    </div>
+    <p id="result"></p>
+</body>
+<script>
+    const elements = document.getElementsByTagName('div');
+    const result = document.getElementById('result');
+    let numbers = 34712;
+    let arrayNumbers = Array.from(String(numbers), Number);
+
+    console.log(arrayNumbers);
+
+    let count = 0;
+
+
+    for (let i = 0; i < arrayNumbers.length; i++) {
+
+        for (let j = 0; j < elements.length; j++) {
+            if (arrayNumbers[i] === parseInt(elements[j].id)) {
+                elements[j].style.display = 'block';
+                result.append(elements[j]);
+            }
+        }
+
+    }
+</script>
+
+</html>

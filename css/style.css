@@ -1,0 +1,191 @@
+                                                                    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;700&display=swap');
+                                                                    * {
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        -moz-box-sizing: border-box;
+                                                                        -webkit-box-sizing: border-box;
+                                                                        box-sizing: border-box;
+                                                                    }
+                                                                    
+                                                                    body {
+                                                                        font-size: 15px;
+                                                                        font-family: 'League Spartan', sans-serif;
+                                                                        background-image: url(../img/bg-pattern-bottom-mobile.svg);
+                                                                        background-repeat: no-repeat;
+                                                                        background-position: bottom right;
+                                                                        border-bottom: 1px solid hsl(300, 43%, 22%);
+                                                                    }
+                                                                    
+                                                                    .fondo {
+                                                                        background-image: url(../img/bg-pattern-top-mobile.svg);
+                                                                        background-repeat: no-repeat;
+                                                                        background-position: top left;
+                                                                    }
+                                                                    /** Utilidades **/
+                                                                    
+                                                                    .marg-bot {
+                                                                        margin-bottom: 1rem;
+                                                                    }
+                                                                    
+                                                                    .marg-bot-t {
+                                                                        margin-bottom: 5rem;
+                                                                    }
+                                                                    
+                                                                    .marg-top {
+                                                                        margin-top: 3rem;
+                                                                    }
+                                                                    
+                                                                    .font-big {
+                                                                        font-weight: 700;
+                                                                    }
+                                                                    
+                                                                    .font-med {
+                                                                        font-weight: 500;
+                                                                    }
+                                                                    
+                                                                    .font-sma {
+                                                                        font-weight: 300;
+                                                                    }
+                                                                    
+                                                                    .item-center {
+                                                                        align-items: center;
+                                                                    }
+                                                                    /**Part 1**/
+                                                                    
+                                                                    .content {
+                                                                        padding-top: 5rem;
+                                                                    }
+                                                                    
+                                                                    .contenedor {
+                                                                        width: 85%;
+                                                                        margin: 0rem auto;
+                                                                    }
+                                                                    
+                                                                    .contenido h2 {
+                                                                        font-size: 40px;
+                                                                        text-align: center;
+                                                                        color: hsl(300, 43%, 22%);
+                                                                    }
+                                                                    
+                                                                    .contenido p {
+                                                                        font-size: 18px;
+                                                                        text-align: center;
+                                                                        color: hsl(303, 10%, 53%);
+                                                                    }
+                                                                    
+                                                                    .stars {
+                                                                        text-align: center;
+                                                                        color: hsl(300, 43%, 22%);
+                                                                    }
+                                                                    
+                                                                    .stars .start img {
+                                                                        margin-right: 0.5rem;
+                                                                    }
+                                                                    
+                                                                    .proof .opinion {
+                                                                        background-color: hsl(300, 43%, 22%);
+                                                                        height: 200px;
+                                                                        border-radius: 0.5rem;
+                                                                        padding: 1.5rem;
+                                                                    }
+                                                                    
+                                                                    .proof .opinion img {
+                                                                        border-radius: 3rem;
+                                                                        margin-right: 1rem;
+                                                                        width: 50px;
+                                                                    }
+                                                                    
+                                                                    .proof .opinion .part {
+                                                                        display: flex;
+                                                                    }
+                                                                    
+                                                                    .proof .opinion .part h3 {
+                                                                        color: hsl(0, 0%, 100%);
+                                                                    }
+                                                                    
+                                                                    .proof .opinion .part span {
+                                                                        color: hsl(333, 80%, 67%);
+                                                                    }
+                                                                    
+                                                                    .proof .opinion p {
+                                                                        color: hsl(0, 0%, 100%);
+                                                                    }
+                                                                    
+                                                                    @media (min-width: 375px) {
+                                                                        .proof {
+                                                                            width: 100%;
+                                                                            align-items: center;
+                                                                        }
+                                                                        .proof .opinion {
+                                                                            width: 95%;
+                                                                            align-items: center;
+                                                                            margin-bottom: 1rem;
+                                                                        }
+                                                                        body {
+                                                                            background-image: url(../img/bg-pattern-bottom-desktop.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: bottom right;
+                                                                        }
+                                                                        .fondo {
+                                                                            margin: 0;
+                                                                            background-image: url(../img/bg-pattern-top-desktop.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top left;
+                                                                        }
+                                                                    }
+                                                                    
+                                                                    @media (min-width: 1000px) {
+                                                                        .content {
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            justify-content: space-between;
+                                                                            text-align: center;
+                                                                        }
+                                                                        .contenido {
+                                                                            width: 40%;
+                                                                            text-align: justify;
+                                                                        }
+                                                                        .contenido h2 {
+                                                                            text-align: left;
+                                                                        }
+                                                                        .contenido p {
+                                                                            text-align: left;
+                                                                        }
+                                                                        .stars {
+                                                                            margin: 0;
+                                                                            width: 50%;
+                                                                        }
+                                                                        .start {
+                                                                            margin: 0 0 15px 0;
+                                                                        }
+                                                                        .start .cont {
+                                                                            background-color: hsl(300, 24%, 96%);
+                                                                            width: 400px;
+                                                                            display: flex;
+                                                                            padding: 1rem;
+                                                                        }
+                                                                        .marg-left-u {
+                                                                            margin-left: 1rem;
+                                                                        }
+                                                                        .marg-left-d {
+                                                                            margin-left: 3rem;
+                                                                        }
+                                                                        .marg-left-t {
+                                                                            margin-left: 4rem;
+                                                                        }
+                                                                        .proof {
+                                                                            display: flex;
+                                                                            margin-bottom: 6rem;
+                                                                        }
+                                                                        .uno {
+                                                                            margin-left: 1rem;
+                                                                        }
+                                                                        .dos {
+                                                                            margin-top: 2rem;
+                                                                            margin-left: 1rem;
+                                                                        }
+                                                                        .tres {
+                                                                            margin-left: 1rem;
+                                                                            margin-top: 4rem;
+                                                                        }
+                                                                    }

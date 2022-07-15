@@ -1,0 +1,17 @@
+div {
+    display: none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: white;
+}
+
+p {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
